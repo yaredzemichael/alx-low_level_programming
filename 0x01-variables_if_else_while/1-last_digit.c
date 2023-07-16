@@ -4,10 +4,10 @@
 
 #include <stdio.h>
 /**
-  * main - prints a text according number
-  * Return: Always (Success)
-  *
-  */
+ * main - prints a text according number
+ * Return: Always (Success)
+ *
+ */
 
 
 
