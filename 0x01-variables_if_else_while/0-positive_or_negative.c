@@ -6,10 +6,10 @@
 
 
 /**
- * main - Determine if a random number is positive, negative or zero
+ * main - prints if number is positive, negative or zero
+ * Return: Always (success)
  *
- * Return: 0 on success
-*/
+ */
 
 int main(void)
 	
@@ -18,8 +18,8 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
-	/* your code gose ther  */
+	n = rand() - RAND_MAX / 2;
+	
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
