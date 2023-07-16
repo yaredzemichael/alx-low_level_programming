@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+
 /**
  * main - Entry point
  *
@@ -15,7 +17,8 @@ int main(void)
 	
 	while (x < 10)
 	{
-		printf("%d", x);
+		printf("%d\n", x);
+		x++
 	}
 	return (0);
 }
