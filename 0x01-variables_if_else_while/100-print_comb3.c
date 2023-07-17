@@ -6,10 +6,9 @@
  *
  * main - Entry point
  * Return: Always 0 (success)
- *
  */
 
-int mai (void)
+int main(void)
 
 {
 	int d, p;
