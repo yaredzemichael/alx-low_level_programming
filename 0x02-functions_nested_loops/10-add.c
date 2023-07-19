@@ -2,8 +2,8 @@
 
 /**
  * add - add two values
- * n1: The first number to computed
- * n2: The second numberto be computed
+ * @n1: The first number to computed
+ * @n2: The second numberto be computed
  * Return: Integer value
  */
 
