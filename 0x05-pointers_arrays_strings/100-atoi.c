@@ -6,8 +6,11 @@
  *
  * Return: the int converted from the string
  */
+
 int _atoi(char *s)
+
 {
+
 	int c = 0;
 	unsigned int ni = 0;
 	int min = 1;
