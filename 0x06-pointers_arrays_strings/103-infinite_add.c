@@ -1,9 +1,9 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
  * rev_string - is indicate the reverse array
  * @n: The buffer represent integer params
- * return: (0);
+ * Return: 0
  */
 void rev_string(char *n)
 {
@@ -15,7 +15,7 @@ void rev_string(char *n)
 	{
 		i++;
 	}
-	i--;
+		i--;
 
 	for (j = 0; j < i; j++, i--)
 	{
@@ -32,7 +32,7 @@ void rev_string(char *n)
  * size_r: buffer size
  */
 
-char *infnite_add(char *n1, char *n2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int overflow = 0, i = 0, j = 0, digits = 0;
 	int vol1 = 0, vol2 = 0, temp_tot = 0;
