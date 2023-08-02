@@ -15,8 +15,10 @@ int sqrt2(int a, int b)
 
 	if (sqrt > a)
 		return (-1);
+
 	else if (sqrt == a)
 		return (b);
+	
 	return (sqrt2(a, b + 1));
 }
 /**
