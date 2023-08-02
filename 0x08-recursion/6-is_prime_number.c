@@ -16,7 +16,6 @@ int prime2(int a, int b)
 
 	else if (a % b == 0 && b > 1)
 		return (0);
-	
 	if ((a / b) < b)
 		return (1);
 
