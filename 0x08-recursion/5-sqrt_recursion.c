@@ -18,7 +18,6 @@ int sqrt2(int a, int b)
 
 	else if (sqrt == a)
 		return (b);
-	
 	return (sqrt2(a, b + 1));
 }
 /**
