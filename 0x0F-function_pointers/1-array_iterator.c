@@ -6,11 +6,9 @@
  * @array: is an array
  * @size: how many elements print
  * @action: pointer to print in hex
- * 
  * Return: void
  */
-
- void array_iterator(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
